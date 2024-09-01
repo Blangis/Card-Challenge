@@ -1,0 +1,75 @@
+body{
+    background-color: rgba(245, 212, 63, 0.945);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(250, 249, 247, 0.911);
+    padding: 20px;
+    max-width: 300px;
+    border: solid 1px;
+    border-radius: 15px;
+    box-shadow: 7px 7px;
+    margin: 20px;
+}
+
+#imagen{
+    border-radius: 7px;
+}
+
+#boton{
+    margin-top: 15px;
+    width: 100px;
+    height:25px;
+    background-color: rgba(245, 212, 63, 0.945); 
+    border-radius: 7px;
+    border:0;
+    font-weight:bold;
+
+}
+
+#dates{
+    font-size:small;
+    margin-bottom: -5px;
+}
+
+h3{
+    margin-bottom: -5px;
+    
+}
+
+#text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    color:rgba(99, 94, 94, 0.938)
+}
+
+.profile{
+    display:flex;
+    gap: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+#photo{
+    width: 40px;
+    height: 40px;
+}
+
+.attribution { 
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
+
